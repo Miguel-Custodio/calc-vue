@@ -1,9 +1,5 @@
 <script setup>
 import { reactive, toRefs } from 'vue';
-import Cabecalho from './components/Cabecalho.vue';
-import Formulario from './components/Formulario.vue';
-import Results from './components/results.vue';
-
 
 const calculadora = reactive({
   numero1: numero1Placeholder,
